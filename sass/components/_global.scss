@@ -29,4 +29,8 @@ body {
 
 .link {
     text-decoration: none;
+
+    &:hover, &:focus {
+        color: $brandcolor;
+    }
 }

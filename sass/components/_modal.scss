@@ -28,9 +28,8 @@
     border-radius: 50%;
     background-color: #FFF;
     cursor: pointer;
-}
 
-.modal__button:focus,
-.modal__button:hover {
-    fill: $brandcolor;
+    &:hover, &:focus {
+        fill: $brandcolor;
+    }
 }

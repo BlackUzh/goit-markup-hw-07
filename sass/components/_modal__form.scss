@@ -33,20 +33,20 @@
     border-radius: 4px;
     outline: none;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.modal-form__input:focus {
-    border-color: $brandcolor;
+    &:focus {
+        border-color: $brandcolor;
+    }
 }
 
 .modal-form__icon {
     position: absolute;
     top: 50%;
     left: 12px;
-}
 
-.modal-form__input:focus~.modal-form__icon {
-    fill: $brandcolor;
+    .modal-form__input:focus~ &{
+        fill: $brandcolor;
+    }
 }
 
 .modal-form__text {
@@ -69,8 +69,8 @@
     border-radius: 4px;
     outline: none;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.modal-form__textarea:focus {
-    border-color: $brandcolor;
+    &:focus {
+        border-color: $brandcolor;
+    }
 }
